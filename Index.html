@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="icon" href="https://mcusercontent.com/40a9f1a77d46874eba2309d88/images/4f15c63b-fd7c-019a-c3c9-a6e102abdac1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90a4d1138d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Menu Brochettes</title>
+
+    <style>
+        /* Réinitialisation des styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styles pour le corps de la page */
+        body {
+            font-family: 'Pixelify Sans', cursive;
+            background-color: #f0f0f0;
+            text-align: center;
+
+        }
+        /* Styles pour l'en-tête */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        /* Styles pour la section principale */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Styles pour les éléments du menu */
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px;
+            text-align: center;
+            overflow: hidden;
+            position: relative; /* Ajout de la position relative */
+        }
+
+        .menu-item img {
+            max-width: 100%;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .order-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .order-button:hover {
+            background-color: #45a049;
+        }
+      
+.share-icon {
+    position: absolute;
+    bottom: 91%;
+    right: 10px;
+    background-color: #fffbb9;
+    color: #c3d117;
+    padding: -5px;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.share-icon:before {
+    content: "\2665";
+    font-size: 35px;
+}
+
+.heart:before {
+    content: "\2665";
+}
+        /* Styles pour la description du menu */
+        .menu-description {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .menu-description h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .menu-description p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Styles pour les informations de contact */
+        .contact-info {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .phone-link {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        /* Styles pour le pied de page */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .footer-left {
+            text-align: left;
+            flex: 1;
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        .footer-right {
+            text-align: right;
+            flex: 1;
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        video {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        /* Hide AddToAny vertical share bar when screen is less than 981 pixels wide */
+        @media screen and (max-width: 100px) {
+            .a2a_floating_style.a2a_vertical_style { display: none; }
+        }
+      .a2a_button_snapchat {
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+<header>
+    <h1>Menu Brochettes</h1>
+</header>
+<div class="container">
+        <p>Découvrez notre service de livraison de délices insulaires : brochettes, samossas, manioc, banane, riz au poulet, et bien plus encore, exclusivement disponible à Marseille !</p>
+        <p>Commandez dès maintenant pour une expérience culinaire exotique et savoureuse, livrée à votre entreprise.</p>
+        <p>Nous sommes ouverts de 10h à 17h. Réservez votre repas dès aujourd'hui et n'oublions pas de mentionner que nous proposons notre service uniquement dans la magnifique ville de Marseille.</p>
+    </div>
+
+
+  
+<main>
+    <!-- Ajout de divs pour chaque élément du menu -->
+    <div class="menu-item">
+        <img src="https://mcusercontent.com/40a9f1a77d46874eba2309d88/images/4f15c63b-fd7c-019a-c3c9-a6e102abdac1.png" alt="Brochettes">
+        <h2>Brochettes à 7,05 €</h2>
+        <p>Brochettes et frites.</p>
+        <a href="tel:+123456789" class="order-button">Commander</a>
+      <br>
+        <div class="share-icon"></div>
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/869577003?h=7ce5d9a521" width="300" height="200" frameborder="10"    allowfullscreen></iframe>
+    </div>
+    <div class="menu-item">
+        <img src="https://mcusercontent.com/40a9f1a77d46874eba2309d88/images/137c4ad5-57d0-691f-ca1a-a6e79b1ccc9b.jpeg" alt="Rougail">
+        <h2>Rougail</h2>
+        <p>Rougail.</p>
+        <a href="tel:+123456789" class="order-button">Commander</a>
+        <div class="share-icon"></div>
+     <iframe title="vimeo-player" src="https://player.vimeo.com/video/869577003?h=7ce5d9a521" width="300" height="200" frameborder="10"    allowfullscreen></iframe>
+    </div>
+   
+</main>
+<div class="menu-description">
+    <h2>Description</h2>
+    <p>Voici une description du menu et des plats proposés.</p>
+</div>
+<div class="contact-info">
+    <p>Appelez-nous au : <a href="tel:+987654321" class="phone-link">987-654-321</a></p>
+</div>
+<footer>
+    <div class="footer-left">
+        <h3>Regardez notre vidéo :</h3>
+        <iframe src="https://www.veed.io/embed/d15a9d06-833a-4c3c-a93f-172c0071c17c" width="200" height="100" frameborder="1" title="Brochettes13" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="footer-right">
+        <p>Copyright © 2023 Brochettes Halal pur bœuf de beau vin de Marseille, </p>
+            </div>
+</footer>
+
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
+   <a class="a2a_button_snapchat"></a>
+       <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>    
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+</div>
+
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+<script>
+    // Sélectionnez tous les éléments avec la classe "share-icon"
+    var shareIcons = document.querySelectorAll('.share-icon');
+
+    // Ajoutez un gestionnaire d'événements au clic sur chaque icône de partage
+    shareIcons.forEach(function(shareIcon) {
+        shareIcon.addEventListener('click', function() {
+            // Insérez ici votre code JavaScript personnalisé pour activer le partage
+            // Assurez-vous de déclencher les actions de partage souhaitées.
+            // Par exemple, déclenchez le partage sur Facebook, Twitter, etc.
+        });
+    });
+</script>
+  <script>
+     // Sélectionnez tous les éléments avec la classe "share-icon"
+var shareIcons = document.querySelectorAll('.share-icon');
+
+// Ajoutez un gestionnaire d'événements au clic sur chaque icône de partage
+shareIcons.forEach(function(shareIcon) {
+    shareIcon.addEventListener('click', function() {
+        // Insérez ici votre code JavaScript personnalisé pour activer le partage
+        // Assurez-vous de déclencher les actions de partage souhaitées.
+        // Par exemple, déclenchez le partage sur Facebook, Twitter, etc.
+    });
+});
+
+  </script>
+  
+</body>
+</html>
